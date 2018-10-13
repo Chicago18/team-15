@@ -34,7 +34,7 @@ function playerHit (player, enemies)
     enemies.disableBody(true, true);
     this.sound.play('ow');
     this.physics.pause();
-    player.setTint(0xff0000);
+    player.disableBody(true,true);
 }
 
 function spawnAsteroid()

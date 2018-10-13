@@ -17,10 +17,6 @@ class mainGame extends Phaser.Scene {
         this.load.audio('explosion', 'Assets/explosion.mp3');
         this.load.image('ship', 'Assets/ship.png');
         this.load.image('background', 'Assets/background.jpg');
-        this.load.image('int', 'Assets/int.png');
-        this.load.image('char', 'Assets/char.png');
-        this.load.image('string', 'Assets/string.png');
-        this.load.image('float', 'Assets/float.png');
     }
 
     create()
@@ -33,6 +29,7 @@ class mainGame extends Phaser.Scene {
         this.add.image(3000,800,'background');
         score = 0;
         scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '48px'});
+        var warning = this.add.text(800, 16, 'This game does not work in chrome', { fontSize: '24px'});
         spawnTimer = this.time.addEvent({ delay: 150, callback: spawnAsteroid, callbackScope: this, repeat: 1});
         var scene = this;
         player = this.physics.add.sprite(700,400,'ship');
