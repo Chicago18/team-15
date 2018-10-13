@@ -2,8 +2,6 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
+from django.models import parents, child, assignments, users
 
-urlpatterns = [
-    path('', views.index, name='index'),
 
-]
