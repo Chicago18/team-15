@@ -1,1 +1,3 @@
-"# team-15" 
+"# team-15"
+
+Game does not work in Chrome
