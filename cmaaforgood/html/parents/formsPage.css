@@ -34,7 +34,7 @@ body {
 /* ------------------------------------
    IFrame
 */
-main {
+iframe {
   margin-top: 100px;
 }
 
@@ -50,4 +50,12 @@ footer {
   display: flex;
   align-items: center;
   padding-top: 15px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline;
 }
