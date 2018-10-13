@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cmaaforgood",
+  "private_key_id": "7ab1b7919b62e03d11e420ea5dbd97793d3296a5",
+  "private_key": "\n",
+  "client_email": "cfg-t15@cmaaforgood.iam.gserviceaccount.com",
+  "client_id": "117194418378312088837",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cfg-t15%40cmaaforgood.iam.gserviceaccount.com"
+}

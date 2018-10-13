@@ -30,22 +30,11 @@ body {
   visibility: hidden;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 30px 64px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    margin: 8px 4px;
-    cursor: pointer;
-}
+
 /* ------------------------------------
    IFrame
 */
-main {
+iframe {
   margin-top: 100px;
 }
 
@@ -61,4 +50,12 @@ footer {
   display: flex;
   align-items: center;
   padding-top: 15px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline;
 }
