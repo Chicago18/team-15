@@ -11,7 +11,7 @@
 
 /* Control the left side */
 .left {
-  background-image: url("Assets/parent.jpg");
+  background-image: url("../Assets/parent.jpg");
   left: 0;
   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
    background-size:cover;
@@ -21,7 +21,7 @@
 
 /* Control the right side */
 .right {
-  background-image: url("Assets/children.jpg");
+  background-image: url("../Assets/children.jpg");
   right: 0;
   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
    background-size:cover;
