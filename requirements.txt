@@ -1,8 +1,10 @@
 TECH REQUIREMENTS
 -----------------
 Install Python 3.7
+
 Django 2.1.2 -- https://www.djangoproject.com/start/
-MySQL
+
+MySQL (Replaced by SQLite)
 
 ENROLLMENT REQUIREMENTS
 -----------------------
@@ -35,3 +37,4 @@ Query grades from govt database
 FORM FIELDS
 -----------
 
+Scheme represented in the database
