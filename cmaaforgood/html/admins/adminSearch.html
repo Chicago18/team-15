@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chinese Mutual Adi Association </title>
+
+    <link rel="icon" href="../Assets/logo/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="adminHome.css">
+
+  </head>
+  <body>
+
+    <section>
+      <header>
+        <!-- fixed-top makes the navbar stick to the top of the screen as the user is scrolling -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Chinese Mutual Aid Association</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="adminHome.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adminSearch.html">Search Students</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Other Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Other Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Other Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Other Tools</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+  <main>
+    <form action="adminSearch.html">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <h1>Student Search</h1>
+              <p>Use this to help you search for a student. You can use the name of the student or the name of parent.</p>
+              <p>You can also do both to narrow down your search more</p>
+              <p><strong>Make sure to have your Khan Academy Account</strong></p>
+              <label for="stu-name"><b>Student Name: </b></label>
+              <input type="text" placeholder="Enter Student Name" name="stu-name">
+            </div>
+
+          <div class="col-md-12">
+            <label for="pare-name"><b>Parent Name: </b></label>
+            <input type="password" placeholder="Enter Parent Name" name="pare-name">
+          </div>
+
+          <div class="col-md-12">
+            <button style="margin-top: 25px;margin-bottom: 20px;" type="submit">Search for Student</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Show Forms</th>
+            <th>Student Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Brian</td>
+            <td><a target="_blank" href="../parents/formsPage.html">Forms</a></td>
+            <td><a target="_blank" href="https://www.khanacademy.org/profile/testchildcfg/vital-statistics">Progress</a></td>
+          </tr>
+          <tr>
+            <!-- <td>Social Sciences</td>
+            <td>B+</td>
+            <td>Mr. John</td>
+          </tr>
+          <tr>
+            <td>Life Sciences</td>
+            <td>C+</td>
+            <td>Mrs. Ramser</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- *************************************
+    Footer Section
+  -->
+  <footer class="row footer">
+    <p> Chinese Mutual Aid Association </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
