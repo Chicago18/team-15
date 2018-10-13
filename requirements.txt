@@ -6,6 +6,14 @@ Django 2.1.2 -- https://www.djangoproject.com/start/
 ENROLLMENT REQUIREMENTS
 -----------------------
 
+Language compatible
+
+Sync to back-end database
+
+Create account upon completion of important enrollment form
+
+Support for filling out other forms online
+
 EDUCATION REQUIREMENTS
 ----------------------
 
