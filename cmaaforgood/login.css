@@ -1,0 +1,68 @@
+/* Split the screen in half */
+.split {
+ height: 100%;
+ width: 50%;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ overflow-x: hidden;
+ padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  background-image: url("Assets/parent.jpg");
+  left: 0;
+  background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+   background-size:cover;
+   -webkit-filter: grayscale(100%);
+   transition: .5s ease;
+}
+
+/* Control the right side */
+.right {
+  background-image: url("Assets/children.jpg");
+  right: 0;
+  background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+   background-size:cover;
+   -webkit-filter: grayscale(100%);
+   transition: .5s ease;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+ width: 150px;
+ border-radius: 50%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.left:hover {
+  -webkit-filter: grayscale(0%);
+  transition: .5s ease;
+}
+
+.right:hover {
+  -webkit-filter: grayscale(0%);
+  transition: .5s ease;
+}
