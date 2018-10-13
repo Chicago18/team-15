@@ -1,3 +1,4 @@
 TECH REQUIREMENTS
 -----------------
 Install Python 3.7
+Django 1.11.6
