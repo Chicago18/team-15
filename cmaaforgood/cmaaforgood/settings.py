@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'cmaaforgood.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(/cmaaforgood/, 'combined.mwb'),
+        'NAME': os.path.join('combined.mwb'),
     }
 }
 
