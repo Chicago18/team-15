@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chinese Mutual Adi Association </title>
+
+    <link rel="icon" href="../../Assets/logo/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="parentLogin.css">
+
+  </head>
+  <body>
+
+    <section>
+      <header>
+        <!-- fixed-top makes the navbar stick to the top of the screen as the user is scrolling -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Chinese Mutual Aid Association</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <input type="button" onclick="location.href='parentHome.html';" value="Back" />
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">What We Do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Get Involved</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NewsRoom</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+  <main>
+    <form action="action_page.php">
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <h1>Parent Login</h1>
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+
+          <div class="col-md-12">
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+          </div>
+
+          <div class="col-md-12">
+            <input type="button" onclick="location.href='childrens_view.html';" value="Login" />
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </main>
+
+  <!-- *************************************
+    Footer Section
+  -->
+  <footer class="row footer">
+    <p> Chinese Mutual Aid Association </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
