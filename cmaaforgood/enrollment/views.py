@@ -5,4 +5,5 @@ from django.shortcuts import render
 
 urlpatterns = [
     path('', views.index, name='index'),
+
 ]
