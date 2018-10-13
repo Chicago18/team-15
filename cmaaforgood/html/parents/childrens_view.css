@@ -40,7 +40,11 @@ body {
 
 .student-pic img{
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
+}
+
+.dropdown {
+  margin-bottom: 40px;
 }
 
 /* ------------------------------------
