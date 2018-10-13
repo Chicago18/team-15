@@ -2,12 +2,35 @@ TECH REQUIREMENTS
 -----------------
 Install Python 3.7
 Django 2.1.2 -- https://www.djangoproject.com/start/
+MySQL
 
 ENROLLMENT REQUIREMENTS
 -----------------------
 
+Easy to use for technologically-illiterate
+
+Language compatible
+
+Sync to back-end database
+
+Create account upon completion of important enrollment form
+
+Support for filling out other forms online
+
+Be able to print PDF form to sign and return
+
 EDUCATION REQUIREMENTS
 ----------------------
+
+View student grades/profiles
+
+Track progress
+
+Get extra practice
+
+Administrators/teachers able to add exercises/practice
+
+Query grades from govt database
 
 FORM FIELDS
 -----------
