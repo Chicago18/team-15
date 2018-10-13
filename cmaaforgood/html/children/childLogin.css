@@ -1,0 +1,74 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+.centered {
+ /* position: absolute; */
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+/* ------------------------------------
+   Body
+*/
+body {
+  font-family: 'Questrial', sans-serif;
+}
+
+
+/* ------------------------------------
+   Navigation
+*/
+/* Do this if you want to change the color of the navbar */
+.navbar.bg-dark {
+  /* background-color: black !important; */
+  background-color: rgba(146, 30, 30, 1) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* This will insert a space of height 75px before every id:
+   https://github.com/twbs/bootstrap/issues/1768 check the solution from @mnot
+*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+
+/* ------------------------------------
+   IFrame
+*/
+.sign-in {
+  margin-top: 100px;
+}
+
+/* ------------------------------------
+   Footer
+*/
+footer {
+  margin-top: 100px;
+  padding-left: 25px;
+  background-color: rgba(146, 30, 30, 1) !important;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
