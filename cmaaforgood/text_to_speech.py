@@ -62,7 +62,7 @@ for i in range(len(form_questions)):
         response = client.synthesize_speech(synthesis_input, voice, audio_config)
 
         # The response's audio_content is binary.
-        with open('Assets/audio/question_'+str(i)+'.mp3', 'wb') as out:
+        with open('html/parents/audio/question_'+str(i)+'.mp3', 'wb') as out:
             # Write the response to the output file.
             out.write(response.audio_content)
             print('Audio content written to file "output'+str(i)+'.mp3"')
