@@ -17,10 +17,6 @@ class mainGame extends Phaser.Scene {
         this.load.audio('explosion', 'Assets/explosion.mp3');
         this.load.image('ship', 'Assets/ship.png');
         this.load.image('background', 'Assets/background.jpg');
-        this.load.image('int', 'Assets/int.png');
-        this.load.image('char', 'Assets/char.png');
-        this.load.image('string', 'Assets/string.png');
-        this.load.image('float', 'Assets/float.png');
     }
 
     create()
